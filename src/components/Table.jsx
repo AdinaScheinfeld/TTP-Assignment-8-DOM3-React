@@ -8,8 +8,8 @@ class Table extends Component {
         color: 'white'
      }
 
-    changeColor = () => {
-        console.log('change color');
+    changeColor = (e) => {
+        e.target.style.backgroundColor = this.state.color;
     }
 
     addRow = () => {
@@ -22,9 +22,7 @@ class Table extends Component {
     }
 
     selectColor = (e) => {
-        console.log('target: '+e.target.value);
         this.setState({ color: e.target.value })
-        console.log('state: '+this.state.color);
     }
 
     render() { 
