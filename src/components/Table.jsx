@@ -9,7 +9,11 @@ class Table extends Component {
      }
 
     changeColor = () => {
-        console.log('hello');
+        console.log('change color');
+    }
+
+    addRow = () => {
+        this.setState({ numRows: this.state.numRows+1 })
     }
 
     render() { 
@@ -21,6 +25,9 @@ class Table extends Component {
 
         return ( 
             <div className='container'>
+                <div className='buttons'>
+                    <button onClick={this.addRow}>Add Row</button>
+                </div>
                 <table className='tableContainer'>{ totalRows }</table>
             </div>
          );
