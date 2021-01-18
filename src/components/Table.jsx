@@ -16,6 +16,11 @@ class Table extends Component {
         this.setState({ numRows: this.state.numRows+1 })
     }
 
+    addColumn = () => {
+        console.log('add column');
+        this.setState({ numCols: this.state.numCols+1 })
+    }
+
     render() { 
 
         let totalRows = [];
@@ -26,7 +31,8 @@ class Table extends Component {
         return ( 
             <div className='container'>
                 <div className='buttons'>
-                    <button onClick={this.addRow}>Add Row</button>
+                    <button onClick={ this.addRow }>Add Row</button>
+                    <button onClick={ this.addColumn }>Add Column</button>
                 </div>
                 <table className='tableContainer'>{ totalRows }</table>
             </div>
