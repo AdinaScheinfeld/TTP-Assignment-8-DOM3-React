@@ -4,10 +4,8 @@ import { Table, TableRow, TableCell } from './components'
 function App() {
   return (
     <div className="App">
-      <h1>In App.js</h1>
+      <h1>Grid Coloring</h1>
       <Table />
-      <TableRow />
-      <TableCell />
     </div>
   );
 }

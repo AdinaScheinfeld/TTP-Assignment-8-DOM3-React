@@ -1,6 +1,8 @@
-const TableCell = () => {
+import React from 'react';
+
+const TableCell = (props) => {
     return ( 
-        <h1>In TableCell.jsx</h1>
+        <td style={{ width: '20px', height: '20px', border: '2px solid black' }} onClick={props.changeColor}> </td>
      );
 }
  
