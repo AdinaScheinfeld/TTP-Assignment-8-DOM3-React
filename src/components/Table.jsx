@@ -1,30 +1,36 @@
 import React, { Component } from 'react';
-import { TableRow, TableCell } from './index';
+import { TableRow } from './index';
 
 class Table extends Component {
+    
+    // state
     state = { 
         numRows: 1,
         numCols: 1,
         color: 'white'
      }
 
+    // method to change a cell's color when the cell is clicked
     changeColor = (e) => {
         e.target.style.backgroundColor = this.state.color;
     }
 
+    // method to add a row to the table
     addRow = () => {
         this.setState({ numRows: this.state.numRows+1 })
     }
 
+    // method to add a column to the table
     addColumn = () => {
-        console.log('add column');
         this.setState({ numCols: this.state.numCols+1 })
     }
 
+    // method to update the state with the color selected from the menue
     selectColor = (e) => {
         this.setState({ color: e.target.value })
     }
 
+    // render
     render() { 
 
         let totalRows = [];

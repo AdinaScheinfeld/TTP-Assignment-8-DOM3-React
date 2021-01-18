@@ -7,6 +7,7 @@ const TableRow = (props) => {
     for(let i=0; i<props.numColumns; i++){
         totalCols.push(<TableCell changeColor={ props.changeColor } />);
     }
+    
     return ( 
         <tr>{ totalCols }</tr>
     );
