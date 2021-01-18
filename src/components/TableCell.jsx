@@ -1,8 +1,9 @@
 import React from 'react';
+import './TableCell.css';
 
 const TableCell = (props) => {
     return ( 
-        <td style={{ width: '20px', height: '20px', border: '2px solid black' }} onClick={props.changeColor}> </td>
+        <td onClick={props.changeColor}> </td>
      );
 }
  
