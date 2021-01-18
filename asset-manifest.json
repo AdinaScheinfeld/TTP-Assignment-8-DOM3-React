@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/TTP-Assignment-8-DOM3-React/static/css/main.aaf745f6.chunk.css",
+    "main.js": "/TTP-Assignment-8-DOM3-React/static/js/main.98397c38.chunk.js",
+    "main.js.map": "/TTP-Assignment-8-DOM3-React/static/js/main.98397c38.chunk.js.map",
+    "runtime-main.js": "/TTP-Assignment-8-DOM3-React/static/js/runtime-main.89488e64.js",
+    "runtime-main.js.map": "/TTP-Assignment-8-DOM3-React/static/js/runtime-main.89488e64.js.map",
+    "static/js/2.a9efe396.chunk.js": "/TTP-Assignment-8-DOM3-React/static/js/2.a9efe396.chunk.js",
+    "static/js/2.a9efe396.chunk.js.map": "/TTP-Assignment-8-DOM3-React/static/js/2.a9efe396.chunk.js.map",
+    "static/js/3.036787cf.chunk.js": "/TTP-Assignment-8-DOM3-React/static/js/3.036787cf.chunk.js",
+    "static/js/3.036787cf.chunk.js.map": "/TTP-Assignment-8-DOM3-React/static/js/3.036787cf.chunk.js.map",
+    "index.html": "/TTP-Assignment-8-DOM3-React/index.html",
+    "static/css/main.aaf745f6.chunk.css.map": "/TTP-Assignment-8-DOM3-React/static/css/main.aaf745f6.chunk.css.map",
+    "static/js/2.a9efe396.chunk.js.LICENSE.txt": "/TTP-Assignment-8-DOM3-React/static/js/2.a9efe396.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.89488e64.js",
+    "static/js/2.a9efe396.chunk.js",
+    "static/css/main.aaf745f6.chunk.css",
+    "static/js/main.98397c38.chunk.js"
+  ]
+}
