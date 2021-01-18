@@ -21,6 +21,12 @@ class Table extends Component {
         this.setState({ numCols: this.state.numCols+1 })
     }
 
+    selectColor = (e) => {
+        console.log('target: '+e.target.value);
+        this.setState({ color: e.target.value })
+        console.log('state: '+this.state.color);
+    }
+
     render() { 
 
         let totalRows = [];
@@ -34,6 +40,17 @@ class Table extends Component {
                     <button onClick={ this.addRow }>Add Row</button>
                     <button onClick={ this.addColumn }>Add Column</button>
                 </div>
+
+                <form>
+                    <label for='colors'>Select a color: </label>
+                    <select name='colors' id='colors' onChange={ this.selectColor }>
+                        <option value='white' id='white'>white</option>
+                        <option value='red' id='red'>red</option>
+                        <option value='yellow' id='yellow'>yellow</option>
+                        <option value='blue' id='blue'>blue</option>
+                    </select>
+                </form>
+
                 <table className='tableContainer'>{ totalRows }</table>
             </div>
          );
